@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Указывает кодировку символов для текущего HTML-документа -->
+    <meta charset="utf-8">
+    <!-- Указывает автора для текущего HTML-документа -->
+    <meta name="author" content="Артём Новиков">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <title>Starter Template for Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Fontawesome CSS -->
+    <script src="https://kit.fontawesome.com/5c05dddab1.js"></script>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="list-group">
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link list-group__selected">
+                                    <i class="fas fa-home"></i>
+                                </a>
+                            </li>
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link">О компании</a>
+                                <ul class="list-group-second">
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Наши награды</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Сертификаты</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Оставить отзыв</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Благодарность от клиентов</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Помощь</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Пожаловаться директору</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link">Акции</a>
+                                <ul class="list-group-second">
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Для новых клиентов</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Для всех клиентов</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Для школ и учебных учреждений</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">На воду 19 литров (5)</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">На кулеры, помпы, аксессуары (6)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link">Доставка и оплата</a>
+                                <ul class="list-group-second">
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Доставка (8)</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Оплата (14)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link">Сервисный центр</a>
+                                <ul class="list-group-second">
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Чистка кулера для воды</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Ремонт кулера для воды</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Годовое обслуживание кулера</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link">Услуги</a>
+                                <ul class="list-group-second">
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Аренда кулеров (32.2)</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Бесплатная аренда кулера (16)</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Бесплатная аренда помпы (17)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link">FAQ</a>
+                                <ul class="list-group-second">
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Где купить?</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link">Блог</a>
+                                <ul class="list-group-second">
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Новости</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Статьи</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Рецепты</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Видеообзоры</a>
+                                    </li>
+                                    <li class="list-group-second__item">
+                                        <a href="#" class="list-group-second__link">Конференции</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <a href="#" class="request-a-call">Заказать звонок</a>
+        <div class="header-brandzone">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="logo-block">
+                            <img src="img/logo.png" alt="logo" class="logo-block__img img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="list-group">
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link">Войти</a>
+                            </li>
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link">Регистрация</a>
+                            </li>
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <div class="count-items-in-basket">0</div>
+                                    <p class="basket-empty">Корзина пуста</p>
+                                </a>
+                            </li>
+                            <li class="list-group__item">
+                                <a href="#" class="list-group__link">8 (495) 921 34 34</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-slider">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters">
+                    <div class="col-lg-12">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="banner-block">
+                                    <img src="img/2fb664000aa244ccf620fc7ba1273fae.jpg" alt="banner-1" class="banner-block__img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-block">
+                                    <img src="img/e70a0b069e056f5da4475326a1c7be13.jpg" alt="banner-1" class="banner-block__img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-block">
+                                    <img src="img/1a1aa80443b0bfae519d8609c85dfc24.jpg" alt="banner-1" class="banner-block__img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-block">
+                                    <img src="img/151c6182772dd5175857f511df0c73a7.jpg" alt="banner-1" class="banner-block__img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-block">
+                                    <img src="img/8a9efcc3d799aa40c99d1ce8af361881.jpg" alt="banner-1" class="banner-block__img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-block">
+                                    <img src="img/b2cd48d67d51694f59fe236ca291a7e0.jpg" alt="banner-1" class="banner-block__img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-block">
+                                    <img src="img/53dc51985a60844c33a26e9d3fc36aed.jpg" alt="banner-1" class="banner-block__img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-block">
+                                    <img src="img/4e89841b09ce2f61e9cdd8d0ac3762fb.jpg" alt="banner-1" class="banner-block__img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-block">
+                                    <img src="img/429cee3531024f555fcc164f4360422e.jpg" alt="banner-1" class="banner-block__img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-block">
+                                    <img src="img/1a34ad98b8914d5d66ea0656fb305e31.jpg" alt="banner-1" class="banner-block__img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner-block">
+                                    <img src="img/10b997f6b29dddd2ac6e072bac43e1ae.jpg" alt="banner-1" class="banner-block__img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="top-search">
+        <div class="top-search__for-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-4">
+                        <div class="top-search-box">
+                            <p class="top-search-box__description">Поиск в каталоге</p>
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Поиск по названию, артикулу или штрихкоду" class="form-group__input">
+                                    <input type="button" value="s" class="form-group__button">
+                                </div>
+                                <small id="passwordHelpBlock" class="form-text text-muted">
+                                    <span>Например:</span>
+                                    <a href="#">Легенда Гор Архыз</a>
+                                </small>
+                            </form>
+                        </div>
+                    </div>
+                    <ul class="sidebar-group">
+                        <li class="sidebar-group__item">
+                            <a href="#" class="sidebar-group__link">Каталог товаров (19)</a>
+                        </li>
+                        <li class="sidebar-group__item">
+                            <a href="#" class="sidebar-group__link">Вода 19 л (20)</a>
+                        </li>
+                        <li class="sidebar-group__item">
+                            <a href="#" class="sidebar-group__link">Вода бутилированная (21)</a>
+                        </li>
+                        <li class="sidebar-group__item">
+                            <a href="#" class="sidebar-group__link">Оборудование (25.1)</a>
+                        </li>
+                        <li class="sidebar-group__item">
+                            <a href="#" class="sidebar-group__link">Аренда кулера (32)</a>
+                        </li>
+                        <li class="sidebar-group__item">
+                            <a href="#" class="sidebar-group__link">Чистка кулера</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+        .merch
+        {
+            position: relative;
+            top: -340px;
+            left: 260px;
+            height: 100%;
+        }
+        .sales-block
+        {
+            z-index: -1;
+            margin: 30px 0;
+        }
+        .block-title
+        {
+            font-weight: bold;
+            margin: 10px 70px
+        }
+        .merch-box
+        {
+            background: #fff;
+            width: 170px;
+            height: 240px;
+        }
+        .merch__img
+        {   
+            max-width: 100%;
+            display: block;
+            margin: 0px auto;
+            padding: 10px 0;
+            max-height:120px;
+        }
+        .merch__description
+        {
+            font-weight: bold;
+            font-size: 12px;
+            display: block;
+            padding: 0 10px;
+            height: 60px; 
+        }
+        .price-block
+        {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .price__box
+        {
+            line-height: 15px;
+        }
+        .merch__price
+        {
+            font-weight: bold;
+            font-size: 20px;
+    
+        }
+        .under__price
+        {
+            color: #989da3;
+            padding: 3px 0 0 0;
+            display: block;
+
+        }
+        .price__button
+        {
+            display: block;
+            height: 35px;
+            width: 35px;
+            font-size: 25px;
+            padding: 0 5px;
+            background: #7aba05;
+        }
+        #sc
+        {
+            color: #fff;
+            display: block;
+            margin: 5px 0;
+
+        }
+    </style>
+
+    <section class="merch">
+        <div class="sales-block">
+            <h4 class="block-title">Скидки и акции</h4> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 ">
+                        <div class="merch-box">
+                            <img src="img/merch_1.jpg" alt="" class="merch__img">
+                            <small class="merch__description">Смузи <br>  « Манго+маракуйя » , innocent, 250 мл, Вел...</small>
+                            <div class="price-block">
+                                <div class="price__box">
+                                    <small class="merch__price">185</small>
+                                    <sup>00</sup> 
+                                    <small class="under__price">за 1 шт (250 г)</small>
+                                </div>
+                                <a href="" class="price__button"><i class="far fa-shopping-cart" id="sc"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 ">
+                        <div class="merch-box">
+                            <img src="img/merch_2.jpg" alt="" class="merch__img">
+                            <small class="merch__description">Хлеб старорусский ржаной Inter Europol, 500 г</small>
+                            <div class="price-block">
+                                <div class="price__box">
+                                    <small class="merch__price">267</small>
+                                    <sup>00</sup> 
+                                    <small class="under__price">за 1 шт (500 г)</small>
+                                </div>
+                                <a href="" class="price__button"><i class="far fa-shopping-cart" id="sc"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="merch-box">
+                            <img src="img/merch_3.jpg" alt="" class="merch__img">
+                            <small class="merch__description">Бананы, «Просто Азбука», Эквадор</small>
+                            <div class="price-block">
+                                <div class="price__box">
+                                    <small class="merch__price">98</small>
+                                    <sup>00</sup> 
+                                    <small class="under__price">за 1 шт (1000 г)</small>
+                                </div>
+                                <a href="" class="price__button"><i class="far fa-shopping-cart" id="sc"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="merch-box">
+                            <img src="img/merch_4.jpg" alt="" class="merch__img">
+                            <small class="merch__description">Пирожки домашние с мясом от шеф-пекаря АВ 40г</small>
+                            <div class="price-block">
+                                <div class="price__box">
+                                    <small class="merch__price">48</small>
+                                    <sup>00</sup> 
+                                    <small class="under__price">за 1 шт (40 г)</small>
+                                </div>
+                                <a href="" class="price__button"><i class="far fa-shopping-cart" id="sc"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="sales-block">
+            <h4 class="block-title">Новинки</h4> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 ">
+                        <div class="merch-box">
+                            <img src="img/merch_5.jpg" alt="" class="merch__img">
+                            <small class="merch__description">Смузи <br>  « Манго+маракуйя » , innocent, 250 мл, Вел...</small>
+                            <div class="price-block">
+                                <div class="price__box">
+                                    <small class="merch__price">185</small>
+                                    <sup>00</sup> 
+                                    <small class="under__price">за 1 шт (250 г)</small>
+                                </div>
+                                <a href="" class="price__button"><i class="far fa-shopping-cart" id="sc"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 ">
+                        <div class="merch-box">
+                            <img src="img/merch_6.jpg" alt="" class="merch__img">
+                            <small class="merch__description">Хлеб старорусский ржаной Inter Europol, 500 г</small>
+                            <div class="price-block">
+                                <div class="price__box">
+                                    <small class="merch__price">267</small>
+                                    <sup>00</sup> 
+                                    <small class="under__price">за 1 шт (500 г)</small>
+                                </div>
+                                <a href="" class="price__button"><i class="far fa-shopping-cart" id="sc"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="merch-box">
+                            <img src="img/merch_7.jpg" alt="" class="merch__img">
+                            <small class="merch__description">Бананы, «Просто Азбука», Эквадор</small>
+                            <div class="price-block">
+                                <div class="price__box">
+                                    <small class="merch__price">98</small>
+                                    <sup>00</sup> 
+                                    <small class="under__price">за 1 шт (1000 г)</small>
+                                </div>
+                                <a href="" class="price__button"><i class="far fa-shopping-cart" id="sc"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="merch-box">
+                            <img src="img/merch_8.jpg" alt="" class="merch__img">
+                            <small class="merch__description">Пирожки домашние с мясом от шеф-пекаря АВ 40г</small>
+                            <div class="price-block">
+                                <div class="price__box">
+                                    <small class="merch__price">48</small>
+                                    <sup>00</sup> 
+                                    <small class="under__price">за 1 шт (40 г)</small>
+                                </div>
+                                <a href="" class="price__button"><i class="far fa-shopping-cart" id="sc"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="sales-block">
+            <h4 class="block-title">Продукты питания</h4> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 ">
+                        <div class="merch-box">
+                            <img src="img/merch_9.jpg" alt="" class="merch__img">
+                            <small class="merch__description">Смузи <br>  « Манго+маракуйя » , innocent, 250 мл, Вел...</small>
+                            <div class="price-block">
+                                <div class="price__box">
+                                    <small class="merch__price">185</small>
+                                    <sup>00</sup> 
+                                    <small class="under__price">за 1 шт (250 г)</small>
+                                </div>
+                                <a href="" class="price__button"><i class="far fa-shopping-cart" id="sc"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 ">
+                        <div class="merch-box">
+                            <img src="img/merch_10.jpg" alt="" class="merch__img">
+                            <small class="merch__description">Хлеб старорусский ржаной Inter Europol, 500 г</small>
+                            <div class="price-block">
+                                <div class="price__box">
+                                    <small class="merch__price">267</small>
+                                    <sup>00</sup> 
+                                    <small class="under__price">за 1 шт (500 г)</small>
+                                </div>
+                                <a href="" class="price__button"><i class="far fa-shopping-cart" id="sc"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="merch-box">
+                            <img src="img/merch_11.jpg" alt="" class="merch__img">
+                            <small class="merch__description">Бананы, «Просто Азбука», Эквадор</small>
+                            <div class="price-block">
+                                <div class="price__box">
+                                    <small class="merch__price">98</small>
+                                    <sup>00</sup> 
+                                    <small class="under__price">за 1 шт (1000 г)</small>
+                                </div>
+                                <a href="" class="price__button"><i class="far fa-shopping-cart" id="sc"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="merch-box">
+                            <img src="img/merch_12.jpg" alt="" class="merch__img">
+                            <small class="merch__description">Пирожки домашние с мясом от шеф-пекаря АВ 40г</small>
+                            <div class="price-block">
+                                <div class="price__box">
+                                    <small class="merch__price">48</small>
+                                    <sup>00</sup> 
+                                    <small class="under__price">за 1 шт (40 г)</small>
+                                </div>
+                                <a href="" class="price__button"><i class="far fa-shopping-cart" id="sc"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        
+    </section>
+
+    <section class="info-block-wrapper">
+        <div class="container">
+            <div class="row no-gutters justify-content-center">
+                <div class="col-lg-12">
+                    <div class="brand-block">
+                        <div class="brand-block__item">
+                            <a href="#" class="brand-block__main-link text-center">
+                                <span>Более</span> <strong>40</strong> <span>брендов</span> <br> <span>воды 19 литров</span>
+                            </a>
+                        </div>
+                        <div class="brand-block__item">
+                            <a href="#" class="brand-block__link">
+                                <img src="img/borjomi.jpg" alt="borjomi" class="brand-block__img">
+                            </a>
+                        </div>
+                        <div class="brand-block__item">
+                            <a href="#" class="brand-block__link">
+                                <img src="img/gornajavershina.png" alt="borjomi" class="brand-block__img">
+                            </a>
+                        </div>
+                        <div class="brand-block__item">
+                            <a href="#" class="brand-block__link">
+                                <img src="img/kingswater.jpg" alt="borjomi" class="brand-block__img">
+                            </a>
+                        </div>
+                        <div class="brand-block__item">
+                            <a href="#" class="brand-block__link">
+                                <img src="img/diveevsk.jpg" alt="borjomi" class="brand-block__img">
+                            </a>
+                        </div>
+                        <div class="brand-block__item">
+                            <a href="#" class="brand-block__link">
+                                <img src="img/piligrim.png" alt="borjomi" class="brand-block__img">
+                            </a>
+                        </div>
+                        <div class="brand-block__item">
+                            <a href="#" class="brand-block__link">
+                                <img src="img/vittel.jpg" alt="borjomi" class="brand-block__img">
+                            </a>
+                        </div>
+                        <div class="brand-block__item">
+                            <a href="#" class="brand-block__link">
+                                <img src="img/evian.png" alt="borjomi" class="brand-block__img">
+                            </a>
+                        </div>
+                        <div class="brand-block__item align-self-center">
+                            <a href="#" class="brand-block__button">Все бренды</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="bio-block">
+                        <div class="logo-box">
+                            <a href="#" class="logo-box__link">
+                                <img src="img/logo.png" alt="logo" class="logo-box__img img-fluid">
+                            </a>
+                        </div>
+                        <div class="description-box">
+                            <p class="description-box__desc">Наша компания была основана в 2001 году, а наш интернет-магазин Водовоз.RU стал одним из первых магазинов, осуществляющих online-продажу питьевой, минеральной и лечебной воды, оборудования для розлива воды (кулеров), помп, напитков и соков, морсов, чая, кофе, кондитерских изделий и сопутствующих товаров для дом и офиса</p>
+                            <a href="#" class="description-box__nav">Подробнее о магазине </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="news-group">
+                        <li class="news-group__item">
+                            <h4 class="news-group__title">Что нового?</h4>
+                        </li>
+                        <li class="news-group__item">
+                            <p class="news-group__date">10.07.2019</p>
+                            <a href="#" class="news-group__link">Все товары от Абрау-Дюрсо по привлекательной цене!</a>
+                        </li>
+                        <li class="news-group__item">
+                            <p class="news-group__date">10.07.2019</p>
+                            <a href="#" class="news-group__link">Бесплатная доставка за МКАД</a>
+                        </li>
+                        <li class="news-group__item">
+                            <p class="news-group__date">09.07.2019</p>
+                            <a href="#" class="news-group__link">Выгодный перекус!</a>
+                        </li>
+                        <li class="news-group__item">
+                            <a href="#" class="news-group__button">Все новости</a> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="news-group">
+                        <li class="news-group__item">
+                            <h4 class="news-group__title">Мы в соцсетях</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-">
+                    <div class="logo-block">
+                        <img src="../img/logo-footer.png" alt="" class="logo-block__img">
+                    </div>
+                    <div class="feedback-block">
+                        <button class="feedback-block__button">Обратная связь</button>
+                    </div>
+                    <div class="info-block">
+                        <div class="info-block__telephone-block">
+                            <a href="#" class="info-block__telephone-link">+7 (495) 223-02-00</a>
+                        </div>
+                        <small class="white-text-muted">Офис с 9:00 до 18:00 по будням</small>
+                        <small class="white-text-muted">Email: welcome@azbukavkusa.ru</small>
+                    </div>
+                    <div class="social-block">
+                        <ul class="social-group">
+                            <li class="social-group__item">
+                                <a href="#" class="social-group__link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-group__item">
+                                <a href="#" class="social-group__link">
+                                    <i class="fab fa-vk"></i>
+                                </a>
+                            </li>
+                            <li class="social-group__item">
+                                <a href="#" class="social-group__link">
+                                    <i class="fab fa-telegram"></i>
+                                </a>
+                            </li>
+                            <li class="social-group__item">
+                                <a href="#" class="social-group__link">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright-block">
+                        <p class="copyright-block__desc">© Водовоз.RU 2001-2019</p>
+                        <a href="" class="copyright-block__nav">Политика конфиденциальности</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="footer-group">
+                        <li class="footer-group__item">
+                            <h4>
+                                <a href="#" class="footer-group__main-link">О Магазине</a>
+                            </h4>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Контакты (18.2)</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Акции (4.2)</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Доставка и оплата (7.2)</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Аренда кулеров (32.3)</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Ремонт кулеров</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Санитарная обработка кулеров</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Статьи</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Видеообзоры</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Помощь</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Обратная связь (33)</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Карта сайта (34)</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Газеты</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Документы по охране труда</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="footer-group">
+                        <li class="footer-group__item">
+                            <h4>
+                                <a href="#" class="footer-group__main-link">Каталог товаров (19.2)</a>
+                            </h4>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Вода 19 литров (20.2)</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Вода 5 - 0,5 литров (21.2)</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Кулеры для воды (26.2)</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Оборудование (25.2)</a>
+                        </li>
+                        <li class="footer-group__item">
+                            <a href="#" class="footer-group__link">Сертификаты (2.2)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Script JS -->
+    <script src="./libs/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>

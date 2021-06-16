@@ -1,0 +1,320 @@
+@import "libs"
+@import "fonts"
+
+body
+    font-family: "OpenSans Regular"
+    font-size: 14px
+    background-color: #f0f0f0
+
+    /* header */
+
+    header
+        background-color: #fff
+
+        nav
+            box-shadow: 1px 1px 10px 2px rgb(234, 234, 234)
+            .container
+                position: relative
+            .list-group
+                flex-direction: row
+                &__item
+                    list-style: none
+                    &:hover .list-group__link
+                        color: #fff
+                        background-color: #00a5dd
+                        box-shadow: inset 0px 0px 3px 1px #9a8f8f
+                        text-decoration: none
+                &__link
+                    display: block
+                    padding: 12px 16px
+                    font-size: 13px
+                    color: #6d8a92
+                &__selected
+                    background-color: #00a5dd
+                    color: #fff
+            .list-group-second
+                display: none
+                min-width: 180px
+                background-color: #fff
+                position: absolute
+                padding: 0
+                border-bottom-left-radius: 8px
+                border-bottom-right-radius: 8px
+                box-shadow: 0 0 10px rgba(0,0,0,0.3)
+                &__item
+                    list-style: none
+                &__link
+                    display: block
+                    padding: 12px 16px
+                    font-size: 13px
+                    color: #0073a3
+                    &:hover
+                        background-color: #f0fafd
+                        text-decoration: none
+            .list-group__item:hover .list-group-second
+                display: block
+                z-index: 2
+
+        .request-a-call
+            position: absolute
+            right: 10rem
+            font-size: 12px
+            border-bottom-left-radius: 8px
+            border-bottom-right-radius: 8px
+            color: #fff
+            display: inline-block
+            padding: 2px 8px
+            background-color: #fb7a00
+            &:hover
+                text-decoration: none
+
+        .header-brandzone
+            padding: 50px 0 40px
+            .list-group
+                flex-direction: row
+                &__item
+                    list-style: none
+                    padding: 0 16px
+                    border-right: 1px solid #eeeeee
+                    &:hover .list-group__link
+                        text-decoration: none
+                        border-bottom: 1px dashed #444
+                &__link
+                    display: block
+                    font-size: 13px
+                    color: #6d8a92
+                    border-bottom: 1px dashed transparent
+                .fa-shopping-cart
+                    font-size: 16px
+                .count-items-in-basket
+                    display: inline-block
+                    padding: 0 8px
+                    margin: 0 8px
+                    background-color: #90ce4a
+                    color: #fff
+                .basket-empty
+                    display: inline-block
+                    margin: 0
+        .header-slider
+            background-color: #f0f0f0
+
+    /* top-search */
+
+    .top-search
+        margin-bottom: 350px
+        padding: 7px
+        background-color: #fff
+        position: relative
+        .top-search__for-bg
+            background-image: url('../img/content_bg.png')
+            padding: 18px 0
+        .top-search-box
+            display: flex
+            justify-content: space-around
+            align-items: center
+            form
+                min-width: 449px
+                max-width: 450px
+                .form-group
+                    border: 1px solid #8CA3AE
+                    border-radius: 5px
+                    background-color: #fff
+                    box-shadow: inset 0 3px 6px 0 rgba(215, 215, 215, 0.7)
+                    &__input
+                        width: 400px
+                        background-color: transparent
+                        border: none
+                        padding: 7px 12px
+                    &__button:after
+                        content: "/f002"
+                        display: block
+                    
+        .sidebar-group
+            padding: 0
+            margin: 0
+            position: absolute
+            background-color: #fff
+            border-radius: 5px
+            box-shadow: 0 0 4px 0 rgba(0,0,0,0.1)
+            &__item
+                list-style: none
+                border-bottom: 1px solid #e0ecf3
+            &__link
+                padding: 17px 18px 16px
+                display: inline-block
+                font-size: 14px
+                color: #000
+                text-decoration: none
+            &__item:hover
+                background-color: #f0fafd
+
+    /* merch-section */
+
+        .merch-section
+            background: #000
+            .block-title
+                font-weight: bold
+
+
+
+
+
+    /* info-block-wrapper */
+
+    .info-block-wrapper
+        padding: 40px
+        background-color: #fff
+        .brand-block
+            position: relative
+            box-shadow: 0 1px 3px 1px rgba(42,48,60,.19)
+            border-radius: 2px
+            padding: 18px 40px
+            padding-left: 200px
+            display: flex
+            justify-content: space-between
+            &__main-link
+                position: absolute
+                left: -6px
+                top: 0
+                width: 233px
+                height: 100%
+                display: block
+                padding-top: 19px
+                background-image: url("../img/70k.png")
+                background-repeat: no-repeat
+                text-decoration: none
+                font-size: 13px
+                &:hover
+                    color: red
+            &__link
+                display: inline-block
+            &__button
+                display: inline-block
+                text-decoration: none
+                padding: 6px 16px
+                color: #fff
+                font-size: 13px
+                border-radius: 3px
+                background-color: #7aba05
+                &:hover
+                    background-color: #88cf06
+
+    /* blog */
+    
+    .blog
+        padding: 40px 0
+        background-image: url("../img/blog_box.png")
+        box-shadow: inset 0 5px 8px -3px #a1b7c6, inset 0 12px 0px -3px #fff, inset 0 -20px 5px -17px #a1b7c6
+        .bio-block
+            .logo-box
+                margin-bottom: 20px
+            .description-box
+                font-size: 16px
+                &__desc
+                    display: block
+                    font-size: 13px
+                    color: #3F3F3F
+                &__nav
+                    font-weight: bold
+                    display: inline-block
+                    font-size: 12px
+                    margin: 20px 0
+        .news-group
+            padding: 0
+            margin: 0
+            &__item
+                list-style: none
+                padding: 10px 0
+                &:first-child
+                    padding-top: 0
+            &__title
+                font-size: 25px
+                color: #000
+                margin-bottom: 25px
+            &__date
+                font-size: 13px
+                color: #0073a3
+                margin: 0
+                font-weight: bold
+            &__link
+                color: #607b8b
+                font-size: 13px
+            &__button
+                display: inline-block
+                padding: 6px 16px
+                border-radius: 5px
+                color: #fff
+                font-size: 13px
+                font-weight: bold
+                background-color: #00a0e3
+                text-decoration: none
+                &:hover
+                    background-color: #45b5e4
+
+    /* footer */
+
+    footer
+        padding: 80px 0
+        background-image: url("../img/footer_bg.jpg")
+        .footer-group__item
+            list-style: none
+        .footer-group__main-link
+            display: block
+            color: #fff
+            font-size: 18px
+            padding-bottom: 16px
+            background: url("../img/footer_h4_bg.png") repeat-x bottom
+            text-decoration: none
+        .footer-group__link
+            display: block
+            color: #fff
+            font-size: 14px
+            padding: 9px 0
+        .logo-block
+            margin-bottom: 48px
+        .feedback-block__button
+            display: inline-block
+            padding: 15px 20px
+            color: #90ce4a
+            border: 1px solid #90ce4a
+            background-color: transparent
+            transition: all .5s
+            margin-bottom: 48px
+            &:hover
+                background-color: #90ce4a
+                color: #fff
+        .info-block
+            margin-bottom: 48px
+            &__telephone-block
+                margin-bottom: 17px
+            &__telephone-link
+                font-size: 28px
+                color: #fff
+                text-decoration: none
+            .white-text-muted
+                display: block
+                color: #c1c0c0
+        .social-block
+            .social-group
+                display: flex
+                list-style: none
+                padding: 0
+                margin: 0
+                &__item
+                    margin: 10px
+                &__link
+                    color: #fff
+                    text-align: center
+                    font-size: 30px
+        .copyright-block
+            margin: 30px 0
+            font-size: 13px
+            &__desc
+                display: block
+                color: #fff
+                margin: 0
+            &__nav
+                color: #fff
+            
+
+@import "media"
